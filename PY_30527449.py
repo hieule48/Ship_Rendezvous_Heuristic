@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-'''
-MATH6005_Final assignment
-Student ID: 30527449
-'''
 
 import numpy as np
 
