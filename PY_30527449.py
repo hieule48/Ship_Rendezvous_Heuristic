@@ -1,7 +1,10 @@
 
 import numpy as np
 
-
+if __name__ == '__main__':
+    PROBLEM_FILE = 'sample_srp_data.csv'
+    main(PROBLEM_FILE)
+    
 def main(csv_file):
     '''
     Main function for running and solving an instance of the SRP.
@@ -241,6 +244,4 @@ def kpi_input(ships, solution, distance_from_port):
     return kpi_file
 
 
-if __name__ == '__main__':
-    PROBLEM_FILE = 'sample_srp_data.csv'
-    main(PROBLEM_FILE)
+
